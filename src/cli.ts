@@ -11,7 +11,7 @@ const options: AdServerOptions = {};
 // Check for version flag
 if (args.includes('--version') || args.includes('-v')) {
   // Print version directly to stdout since this is intentional output, not logging
-  process.stdout.write('Adwords MCP v1.0.0\n');
+  process.stdout.write('Adwords MCP v1.0.1\n');
   process.exit(0);
 }
 

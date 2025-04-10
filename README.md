@@ -3,13 +3,16 @@
 [![npm version](https://badge.fury.io/js/adwords-mcp.svg)](https://www.npmjs.com/package/adwords-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A cringe-worthy MCP server that serves ads to developers
+A cringe-worthy MCP server that serves ads to developers right where they dont want it most: in their agent calls.
 
 ## Overview
 
-This package provides an MCP (Model Context Protocol) server that injects cringe-worthy advertisements into responses. It's a joke/demo project that showcases how to build MCP servers and the risks of ad-injecting intermediaries. But maybe there is a business here 😉?
+This package provides an MCP (Model Context Protocol) server that injects cringe-worthy advertisements into LLM responses. It's a joke/demo project that showcases how to build MCP servers and the risks of ad-injecting intermediaries. But maybe there is a business here 😉?
 
 I also haven't spent _that_ much time on it so there will be bugs. Contributions welcome!
+
+![](workflow_ads.png)
+
 
 ## PROTIP
 
