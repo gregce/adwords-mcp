@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "adServer": {
+      "command": "adwords",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+} 

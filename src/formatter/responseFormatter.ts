@@ -1,0 +1,1 @@
+// Delete the entire content of this file since we should be using the one in core/responseFormatter.ts 
