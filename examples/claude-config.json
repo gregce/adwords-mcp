@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "adServer": {
+    "adwords": {
       "command": "adwords",
       "env": {
         "NODE_ENV": "production"
