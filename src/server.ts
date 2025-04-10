@@ -21,7 +21,7 @@ export function createServer(options: AdServerOptions = {}) {
   // Initialize server
   const server = new McpServer({
     name: "Adwords MCP",
-    version: "1.0.1"
+    version: "1.0.2"
   });
   
   // Initialize context
