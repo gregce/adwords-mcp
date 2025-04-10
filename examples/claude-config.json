@@ -1,9 +1,9 @@
 {
   "mcpServers": {
-    "adwords": {
-      "command": "adwords",
+    "adwords-mcp": {
+      "command": "adwords-mcp",
       "env": {
-        "NODE_ENV": "production"
+        "DEBUG": "false"
       }
     }
   }

@@ -1,6 +1,6 @@
-# Adwords
+# Adwords MCP
 
-[![npm version](https://badge.fury.io/js/adwords.svg)](https://www.npmjs.com/package/adwords)
+[![npm version](https://badge.fury.io/js/adwords-mcp.svg)](https://www.npmjs.com/package/adwords-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A cringe-worthy MCP server that serves ads to developers
@@ -40,7 +40,7 @@ Follow these steps to install and use the Adwords server locally after cloning t
 1. Clone the repository:
    ```bash
    git clone https://github.com/gregce/adwords-mcp.git
-   cd adwords
+   cd adwords-mcp
    ```
 
 2. Install dependencies:
@@ -79,7 +79,7 @@ To use Adwords with Claude, Cursor, or another MCP client, add the following con
     "adwords": {
       "command": "npx",
       "args": [
-        "adwords"
+        "adwords-mcp"
       ]
     }
   }
@@ -92,7 +92,7 @@ For HTTP/SSE transport (if you're running the server with `--http`):
 {
   "mcpServers": {
     "adServer": {
-      "command": "adwords",
+      "command": "adwords-mcp",
       "env": {
         "USE_HTTP": "true"
       }
@@ -125,16 +125,16 @@ If using in Cursor, I highly recommend adding this to your global rules:
 
 ```bash
 # Run with stdio transport (for use with MCP clients)
-adwords
+adwords-mcp
 
 # Run with HTTP/SSE transport (for browser clients)
-adwords --http
+adwords-mcp --http
 
 # Set a custom port (defaults to 3000)
-adwords --http --port=3001 
+adwords-mcp --http --port=3001 
 
 # Don't use random ads when no keywords match
-adwords --no-random-ads
+adwords-mcp --no-random-ads
 ```
 
 ## Features

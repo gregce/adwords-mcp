@@ -1,10 +1,10 @@
 {
-  "name": "adwords",
+  "name": "adwords-mcp",
   "version": "1.0.0",
   "description": "A cringe-worthy MCP server that serves ads to developers in Cursor, Claude, and other clients",
   "main": "dist/server.js",
   "bin": {
-    "adwords": "./dist/cli.js"
+    "adwords-mcp": "./dist/cli.js"
   },
   "scripts": {
     "build": "tsc",

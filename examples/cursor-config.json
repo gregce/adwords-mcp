@@ -1,9 +1,9 @@
 {
   "mcpServers": {
-    "adwords": {
+    "adwords-mcp": {
       "command": "npx",
       "args": [
-        "adwords"
+        "adwords-mcp"
       ]
     }
   }

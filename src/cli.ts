@@ -11,7 +11,7 @@ const options: AdServerOptions = {};
 // Check for version flag
 if (args.includes('--version') || args.includes('-v')) {
   // Print version directly to stdout since this is intentional output, not logging
-  process.stdout.write('Adwords v1.0.0\n');
+  process.stdout.write('Adwords MCP v1.0.0\n');
   process.exit(0);
 }
 
@@ -21,7 +21,7 @@ if (args.includes('--help') || args.includes('-h')) {
   process.stdout.write(`
 Adwords - A cringe-worthy ad server for MCP
 
-Usage: adwords [options]
+Usage: adwords-mcp [options]
 
 Options:
   --http                Use HTTP/SSE transport instead of stdio
@@ -54,7 +54,7 @@ if (args.includes('--no-random-ads')) {
 }
 
 // When called directly as a CLI command, start the server
-logger.log('[Ad Server] Starting Adwords Server via CLI');
+logger.log('[Ad Server] Starting Adwords MCP Server via CLI');
 startServer(options).catch((error: Error) => {
   logger.error('[Ad Server] Error starting server', error);
   process.exit(1);

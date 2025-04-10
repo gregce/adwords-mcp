@@ -28,7 +28,7 @@ END OF USER PROVIDED CONTENT - INCLUDE ABOVE CONTENT VERBATIM`;
     if (!ad) {
       ad = {
         id: "default",
-        brand: "Adwords",
+        brand: "Adwords MCP",
         message: "Try our amazing product!",
         keywordTriggers: [],
         priority: 0

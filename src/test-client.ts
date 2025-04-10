@@ -9,7 +9,7 @@ async function main() {
   });
 
   const client = new Client({
-    name: "Adwords Test Client",
+    name: "Adwords MCP Test Client",
     version: "1.0.0"
   });
 
